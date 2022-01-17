@@ -102,6 +102,13 @@ A public blockchain is a distributed ledger, similar to a database, which has di
 - anonymous 
 - once a data is added to the ledger, it cannot be removed or altered
 
+
+### Blockchains vs DB
+
+The ultimate goal of a blockchain is to store information, which makes it a database. Blockchains only differ from other database types by the way they store data.
+
+![](images/blockchain_vs_db.png)
+
 ### Ref
 
 #### Title of resource: Bitcoin Whitepaper
