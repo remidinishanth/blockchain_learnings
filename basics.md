@@ -3,7 +3,7 @@
 * Unlike traditional methods, blockchain enables peer to peer transfer of digital assets without any intermediaries.
 * It was a technology originally created to support the famous cryptocurrency, BitCoin.
 
-### BitCoin
+### BitCoin: A Peer-to-Peer Electronic Cash System
 
 * Two major contributions of cryptocurrency Bitcoin are a continuously working digital currency system, and a model 
 for autonomous decentralized application technology called the blockchain.
