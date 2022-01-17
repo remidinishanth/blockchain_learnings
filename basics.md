@@ -109,6 +109,10 @@ The ultimate goal of a blockchain is to store information, which makes it a data
 
 ![](images/blockchain_vs_db.png)
 
+#### Why is a blockchain ledger more reliable than a database system?
+
+A blockchain ledger is composed of multiple blocks containing information about transactions. Every transaction in a block is signed using a public key cryptographic algorithm. The block itself is also signed with an SHA-256 signature. The next block in the chain uses this previous signature to link to the rest of the chain. Finally, most of the validation nodes need to approve this new block to be added to the chain. This mix of signatures and consensus makes it so that data in a blockchain cannot be altered without tremendous computational power.
+
 ### Ref
 
 #### Title of resource: Bitcoin Whitepaper
