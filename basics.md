@@ -43,6 +43,8 @@ Now compare this with a system where peers can transact directly with each other
 Functions of the intermediaries are shifted to the periphery to the peer participant in the blockchain infrastructure. 
 Peers are not necessarily known to each other. This is a decentralized system. 
 
+![](images/blockchain_centralized_decentralized.png)
+
 #### How do we establish trust among the peers in such a decentralized system? 
 By having a process in place to validate, verify, and confirm transactions. 
 Record the transaction in a distributed ledger of blocks, create a tamper-proof record of blocks, chain of blocks, and 
