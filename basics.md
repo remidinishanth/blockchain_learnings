@@ -39,9 +39,13 @@ Let's enumerate the intermediaries involved in accomplishing this task.
 We have a credit card agency, we have a customer bank, we have a credit cards bank, we have an exchange, 
 we have the merchant's bank, and finally, the merchant. This is an example of a centralized system that we are so used to.
 
+![](images/normal_bank_transaction.jpg)
+
 Now compare this with a system where peers can transact directly with each other irrespective of where they are located. 
 Functions of the intermediaries are shifted to the periphery to the peer participant in the blockchain infrastructure. 
 Peers are not necessarily known to each other. This is a decentralized system. 
+
+![](images/blockchain_transaction.jpg)
 
 #### How do we establish trust among the peers in such a decentralized system? 
 By having a process in place to validate, verify, and confirm transactions. 
