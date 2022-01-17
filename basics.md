@@ -92,5 +92,30 @@ A public blockchain is a distributed ledger, similar to a database, which has di
 - anonymous 
 - once a data is added to the ledger, it cannot be removed or altered
 
+### Ref
+
+#### Title of resource: Bitcoin Whitepaper
+
+Resource type: Paper http://www.bitcoin.org/bitcoin.pdf
+
+Description: This paper was released by Satoshi Nakamoto prior to the release of the now famous cryptocurrency Bitcoin.
+
+#### Title of resource: Bitcoin's Academic Pedigree
+
+Resource type: Paper https://queue.acm.org/detail.cfm?id=3136559
+
+Description: How Bitcoin, a radically different proposal for a decentralized cryptocurrency showed that digital cash could be viable.
+
+#### Title of resource: What is Blockchain Technology? A Step-by-Step Guide For Beginners
+
+Resource type: Website, https://blockgeeks.com/guides/what-is-blockchain-technology/
+
+Description: A step by step guide that goes into the details of what Blockchain technology is.
+
+#### Title of resource: Blockchain: The Invisible Technology That's Changing the World
+
+Resource type: Website, https://www.pcmag.com/article/351486/blockchain-the-invisible-technology-thats-changing-the-wor
+
+Description: Article that expands on a new immutable digital fabric remaking the internet without people even realizing it. It also shows how Blockchain-based networks, decentralized apps (DApps), and distributed ledgers are becoming the foundation of digital life.
 
 REF: https://www.ledger.com/academy/blockchain/what-is-blockchain
