@@ -45,13 +45,13 @@ Now compare this with a system where peers can transact directly with each other
 Functions of the intermediaries are shifted to the periphery to the peer participant in the blockchain infrastructure. 
 Peers are not necessarily known to each other. This is a decentralized system. 
 
+![](images/blockchain_centralized_decentralized.png)
+
 #### How do we establish trust among the peers in such a decentralized system? 
 By having a process in place to validate, verify, and confirm transactions. 
 Record the transaction in a distributed ledger of blocks, create a tamper-proof record of blocks, chain of blocks, and 
 implement a consensus protocol for agreement on the block to be added to the chain. 
 So, validation, verification, consensus, and immutable recording lead to the trust and security of the blockchain.
-
-![](images/blockchain_centralized_decentralized.png)
 
 ### How does blockchain transaction work?
 
@@ -71,6 +71,17 @@ In the case just described, how do we trust our unknown peers? Through verificat
 Kevin checks it, oops, Kevin finds the amount of the transaction is not 10,000, but 300, not valid. Kevin rejects and nullifies the transaction. Similar to these, validation, then verification methods devised by the blockchain and implemented by the peers provide the collector trust needed in a decentralized system. Summarizing, blockchain technology supports methods for a decentralized peer-to-peer system, a collective trust model, and a distributed immutable ledger of records of transactions.
 
 ![](images/blockchain_transaction.jpg)
+
+This idea of a ledger is the starting point for understanding bitcoin. 
+It is a place to record all transactions that happen in the system, and it is open to and trusted by all system participants.
+
+**How can you build a ledger for use in an environment like the Internet where participants may not trust each other?**
+
+Let's start with the easy part: the choice of data structure. There are a few desirable properties. The ledger should be immutable or, more precisely, _append only_: you should be able to add new transactions but not remove, modify, or reorder existing ones. There should also be a way to obtain a succinct _cryptographic digest_ of the state of the ledger at any time. 
+
+* A digest is a short string that makes it possible to avoid storing the entire ledger, knowing that if the ledger were tampered with in any way, the resulting digest would change, and thus the tampering would be detected. 
+ 
+* The reason for these properties is that unlike a regular data structure that's stored on a single machine, the ledger is a global data structure collectively maintained by a mutually untrusting set of participants. This contrasts with another approach to decentralizing digital ledgers, in which many participants maintain local ledgers and it is up to the user querying this set of ledgers to resolve any conflicts.
 
 ### Key takeaways
 A public blockchain is a distributed ledger, similar to a database, which has different key attributes:
