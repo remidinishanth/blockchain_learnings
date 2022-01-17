@@ -105,7 +105,7 @@ A public blockchain is a distributed ledger, similar to a database, which has di
 
 ### Blockchains vs DB
 
-The ultimate goal of a blockchain is to store information, which makes it a database. Blockchains only differ from other database types by the way they store data.
+The ultimate goal of a blockchain is to store information, which makes it a database. Blockchains only differ from other database types by the way they store data. REF: https://www.mongodb.com/databases/blockchain-database
 
 ![](images/blockchain_vs_db.png)
 
