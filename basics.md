@@ -45,8 +45,6 @@ Now compare this with a system where peers can transact directly with each other
 Functions of the intermediaries are shifted to the periphery to the peer participant in the blockchain infrastructure. 
 Peers are not necessarily known to each other. This is a decentralized system. 
 
-![](images/blockchain_transaction.jpg)
-
 #### How do we establish trust among the peers in such a decentralized system? 
 By having a process in place to validate, verify, and confirm transactions. 
 Record the transaction in a distributed ledger of blocks, create a tamper-proof record of blocks, chain of blocks, and 
@@ -54,6 +52,25 @@ implement a consensus protocol for agreement on the block to be added to the cha
 So, validation, verification, consensus, and immutable recording lead to the trust and security of the blockchain.
 
 ![](images/blockchain_centralized_decentralized.png)
+
+### How does blockchain transaction work?
+
+Let's consider a common scenario.
+
+* Say Alice is lending Bob $10,000. This is one single peer to peer transaction. Alice and Bob both make a note of it on a ledger.
+* What if Alice changes the entry from $10,000 to $11,000? Alternatively, WHat if Bob changes her entry from $10,000 to $1,000? 
+* To prevent this trust violation, we need to seek the help of people around us, Lisa, Allison, and Francis. Provide all of them a valid copy of this ledger.
+* This is the basic concept of an immutable distributed ledger defined in a blockchain process.
+
+In this scenario, we were all physically present in one location, Amherst. Now imagine this to be an online transaction to an unknown peer. Also, scale up the one transaction to 10,000 transactions, how about a million transactions.
+
+I should be able to transact with equal ease to any unknown peer in Amherst, Albany, or Albania, maybe to send some flowers to a friend in Albania. This is the tenet of a decentralized system supported by blockchain.
+
+In the case just described, how do we trust our unknown peers? Through verification and validation. In our example, Bob requests Kevin to verify the amount Alice transacted with her.
+
+Kevin checks it, oops, Kevin finds the amount of the transaction is not 10,000, but 300, not valid. Kevin rejects and nullifies the transaction. Similar to these, validation, then verification methods devised by the blockchain and implemented by the peers provide the collector trust needed in a decentralized system. Summarizing, blockchain technology supports methods for a decentralized peer-to-peer system, a collective trust model, and a distributed immutable ledger of records of transactions.
+
+![](images/blockchain_transaction.jpg)
 
 ### Key takeaways
 A public blockchain is a distributed ledger, similar to a database, which has different key attributes:
