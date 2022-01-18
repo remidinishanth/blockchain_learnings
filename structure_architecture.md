@@ -27,8 +27,6 @@ Structure of UTXO:
 *  a value or the amount it is good for
 *  And an optional script, the condition under which the output can be spent
 
-![](images/utxo-structure.png)
-
 A UTXO consists of a locking script & the amount that is to be transferred. The locking script locks the transaction amount. For someone to use the transaction amount, an unlocking script is required.
 
 Think of UTXO as a safe-deposit box that locks some amount of bitcoin. Anyone that has the key to that safe can spend that bitcoin.
@@ -80,7 +78,15 @@ A transaction comprises of a bunch of metadata which are shown below.
 ![](images/structure-of-a-transaction.png)
 Structure of a bitcoin transaction. Source: Mastering Bitcoin by Andreas Antonopolous
 
-#### Bitcoin transaction with example
+Inputs structure
+![](images/structure-of-a-transaction-input.png)
+
+Outputs structure
+![](images/utxo-structure.png)
+
+#### Bitcoin transaction properties with example
+
+A Bitcoin transaction has the following data properties expressed in JSON format:
 
 ```go
 {
