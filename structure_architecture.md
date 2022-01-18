@@ -84,6 +84,15 @@ Inputs structure
 Outputs structure
 ![](images/utxo-structure.png)
 
+
+#### UTXO and Transaction
+
+The UTXO is a discrete and indivisible unit of value denominated in satoshis. The first question that comes to mind when we say that UTXO’s are indivisible: what happens when we try to spend less than the UTXO’s that we own? Let’s see an example:
+
+I want to send Sarah, 0.5 Bitcoins, and in my Balance I have 1 bitcoin that came from only one UTXO, so I can’t divide the UTXO of one bitcoin, I must send the entire bitcoin in the transaction, and create another output as my change. Similar as when we pay with a five dollar bill something that is only two dollars, we can’t divide the five dollar bill, so we pay with the entire five dollar bill and receive three dollars as change. This is an important aspect about bitcoin transactions.
+
+![](images/utxo_transaction.png)
+
 #### Transaction example
 
 The data structure of transactions does not have a field for fees. Instead, fees are implied as the difference between the sum of inputs and the sum of outputs. Any excess amount that remains after all outputs have been deducted from all inputs is the fee that is collected by the miners.
@@ -91,6 +100,10 @@ The data structure of transactions does not have a field for fees. Instead, fees
 `Fees = Sum(Inputs) – Sum(Outputs)`
 
 ![](images/transaction_real_example.png)
+
+If we watch again the bitcoin transaction chart, we’ll see that there’s a total input of 4.32123876 BTC from a previously UTXO, in the estimated bitcoin transacted we see 0.1 BTC, and in the outputs we can see 4 different addresses, probably the one with 0.1BTC is the receiver of the transaction, and the other three are random generated address to give back the change. 
+
+For security and anonymity reasons some wallets will generate random bitcoin addresses and divide the change payments in order to make it more difficult to track the spent funds, that’s also why we see an “estimated” bitcoin transacted.
 
 #### Bitcoin transaction properties with example
 
