@@ -141,68 +141,60 @@ C:\>\local\bitcoin-0.15.1\bin\bitcoin-cli.exe -testnet getrawtransaction
 
 ```json
 {
-  "txid": 
-     "e22d5998a43e3e1d81784e6e92988d1c4eae77cd0e439542337e48a786c75e69",
-  "hash": 
-     "e22d5998a43e3e1d81784e6e92988d1c4eae77cd0e439542337e48a786c75e69",
-  "version": 2,
-  "size": 225,
-  "vsize": 225,
-  "locktime": 1281294,
-  "vin": [
-    {
-      "txid": 
-        "6f6e35c52b7a00c4b496a7191296c29fe98248e869471c92c87c47885dc54baa",
-      "vout": 0,
-      "scriptSig": {
-        "asm": 
-"304402202ab88452cd720f3e42731a5fd1345e5f2c6888a3d0a0568abf315c46e6b038cf02
+    "txid":"e22d5998a43e3e1d81784e6e92988d1c4eae77cd0e439542337e48a786c75e69",
+    "hash":"e22d5998a43e3e1d81784e6e92988d1c4eae77cd0e439542337e48a786c75e69",
+    "version":2,
+    "size":225,
+    "vsize":225,
+    "locktime":1281294,
+    "vin":[
+        {
+            "txid":"6f6e35c52b7a00c4b496a7191296c29fe98248e869471c92c87c47885dc54baa",
+            "vout":0,
+            "scriptSig":{
+                "asm":"304402202ab88452cd720f3e42731a5fd1345e5f2c6888a3d0a0568abf315c46e6b038cf02
 20394e02c12aecd9bb2356b4b09980476a4cb347b9e96088f39c995d6d0302fd76[ALL] 
 0387ab1fa2aedc1dfe5fd8fba9275455b392db1e3b7bad3a8d611fb3cdb789f84d",
-        "hex": 
-"47304402202ab88452cd720f3e42731a5fd1345e5f2c6888a3d0a0568abf315c46e6b0..."
-      },
-      "sequence": 4294967294
-    }
-  ],
-  "vout": [
-    {
-      "value": 847.54623264,
-      "n": 0,
-      "scriptPubKey": {
-        "asm": 
-"OP_DUP OP_HASH160 c14be92816c5ccfa8c742acba43ee5382ce22eac 
+                "hex":"47304402202ab88452cd720f3e42731a5fd1345e5f2c6888a3d0a0568abf315c46e6b0..."
+            },
+            "sequence":4294967294
+        }
+    ],
+    "vout":[
+        {
+            "value":847.54623264,
+            "n":0,
+            "scriptPubKey":{
+                "asm":"OP_DUP OP_HASH160 c14be92816c5ccfa8c742acba43ee5382ce22eac 
 OP_EQUALVERIFY OP_CHECKSIG",
-        "hex": "76a914c14be92816c5ccfa8c742acba43ee5382ce22eac88ac",
-        "reqSigs": 1,
-        "type": "pubkeyhash",
-        "addresses": [
-          "my91eT3mdFdo9gfe85wu2Ex35sNRS3uVwJ"
-        ]
-      }
-    },
-    {
-      "value": 7.03666753,
-      "n": 1,
-      "scriptPubKey": {
-        "asm": 
-"OP_DUP OP_HASH160 5e25fd265324c70a1a8bbbeb969614d39f6f6647 
+                "hex":"76a914c14be92816c5ccfa8c742acba43ee5382ce22eac88ac",
+                "reqSigs":1,
+                "type":"pubkeyhash",
+                "addresses":[
+                    "my91eT3mdFdo9gfe85wu2Ex35sNRS3uVwJ"
+                ]
+            }
+        },
+        {
+            "value":7.03666753,
+            "n":1,
+            "scriptPubKey":{
+                "asm":"OP_DUP OP_HASH160 5e25fd265324c70a1a8bbbeb969614d39f6f6647 
 OP_EQUALVERIFY OP_CHECKSIG",
-        "hex": "76a9145e25fd265324c70a1a8bbbeb969614d39f6f664788ac",
-        "reqSigs": 1,
-        "type": "pubkeyhash",
-        "addresses": [
-          "mp6mKbgWE25PyyX63zJ8SRibrKugHMkJDE"
-        ]
-      }
-    }
-  ],
-  "hex": "0200000001aa4bc55d88477cc8921c4769e84882e99fc2961219a796b4c4...",
-  "blockhash": 
-    "0000000000000db32dee811e7a0c1caefc60fbbbf5db88464877f4c97988ea14",
-  "confirmations": 2271,
-  "time": 1518381726,
-  "blocktime": 1518381726
+                "hex":"76a9145e25fd265324c70a1a8bbbeb969614d39f6f664788ac",
+                "reqSigs":1,
+                "type":"pubkeyhash",
+                "addresses":[
+                    "mp6mKbgWE25PyyX63zJ8SRibrKugHMkJDE"
+                ]
+            }
+        }
+    ],
+    "hex":"0200000001aa4bc55d88477cc8921c4769e84882e99fc2961219a796b4c4...",
+    "blockhash":"0000000000000db32dee811e7a0c1caefc60fbbbf5db88464877f4c97988ea14",
+    "confirmations":2271,
+    "time":1518381726,
+    "blocktime":1518381726
 }
 ```
 
