@@ -109,6 +109,20 @@ A public blockchain is a distributed ledger, similar to a database, which has di
 - anonymous 
 - once a data is added to the ledger, it cannot be removed or altered
 
+### Bitcoin is an application that uses the blockchain.
+
+Blockchain Technology combines 4 crucial concepts
+* Cryptography to ensure messages cannot be faked
+* A Consensus Algorithm
+* A data structure for storage
+* Distribution via Peer-to-Peer protocols
+
+For Bitcoin, those choices are:
+* Cryptography: Bitcoin uses ECDSA for signatures, double SHA-256 for hashing
+* Consensus Algorithm: Proof of Work (Proof of Stake would be an alternative)
+* Storage: Merkle Tree
+* Distribution: A TCP-based peer-to-peer protocol
+
 
 ### Blockchains vs DB
 
