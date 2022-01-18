@@ -161,3 +161,4 @@ Resource type: Website, https://www.pcmag.com/article/351486/blockchain-the-invi
 Description: Article that expands on a new immutable digital fabric remaking the internet without people even realizing it. It also shows how Blockchain-based networks, decentralized apps (DApps), and distributed ledgers are becoming the foundation of digital life.
 
 REF: https://www.ledger.com/academy/blockchain/what-is-blockchain
+REF: https://medium.com/coinmonks/the-blockchain-473aac352e5
