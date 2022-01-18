@@ -84,7 +84,12 @@ Inputs structure
 Outputs structure
 ![](images/utxo-structure.png)
 
-Transaction example
+#### Transaction example
+
+The data structure of transactions does not have a field for fees. Instead, fees are implied as the difference between the sum of inputs and the sum of outputs. Any excess amount that remains after all outputs have been deducted from all inputs is the fee that is collected by the miners.
+
+`Fees = Sum(Inputs) – Sum(Outputs)`
+
 ![](images/transaction_real_example.png)
 
 #### Bitcoin transaction properties with example
