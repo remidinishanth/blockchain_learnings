@@ -93,6 +93,13 @@ Let's start with the easy part: the choice of data structure. There are a few de
  
 * The reason for these properties is that unlike a regular data structure that's stored on a single machine, the ledger is a global data structure collectively maintained by a mutually untrusting set of participants. This contrasts with another approach to decentralizing digital ledgers, in which many participants maintain local ledgers and it is up to the user querying this set of ledgers to resolve any conflicts.
 
+### Consensus Protocol
+In Bitcoin, remember that a new block is created and added to the chain every 10 minutes. Those blocks are determined to be valid and appended to the blockchain by the distributed nodes in the network — no clearinghouse. They perform this function via [Nakamoto Consensus](https://blockonomi.com/nakamoto-consensus/), which is a version of a concept known as “Proof of Work” or _Byzantine Fault Tolerance_ in distributed computing.
+
+Through a series of clever game theory incentives, cryptography, and distributed consensus, a blockchain can achieve secure and accurate consensus on the state of the ledger, just like a central clearinghouse, but over a decentralized network where no single entity is in control.   
+
+Cryptography in blockchains makes the verification of data (i.e., transactions) trivial, and nearly impossible to forge. This task is performed by network operators that run nodes and automatically validate the blocks and transactions in the network through a set of consensus rules, which can be run by anyone with a computer on a public, permissionless blockchain like Bitcoin.
+
 ### Key takeaways
 A public blockchain is a distributed ledger, similar to a database, which has different key attributes:
 
