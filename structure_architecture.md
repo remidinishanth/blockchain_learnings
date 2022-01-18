@@ -216,6 +216,28 @@ Participants can validate the transaction contents.
 
 Does the UTXO's reference input exist in the network state? This is the only one of the many validation criteria. Say Alice gives Bob $10,000 in an envelope. This is similar to Alice asking Bob to verify the money in the envelope to be $10,000.
 
+### Blocks
+
+Now, let's look at the structure of the Blockchain by peeking into the Bitcoin Blockchain. 
+
+Our goal is to understand the link between the blocks. 
+
+Let's consider the chain of three blocks: 488867, 488868. 488869. 488868 shown in the middle, has the hash of 488867 as its previous hash. 
+
+Block 488869 has the hash of 488868 as its previous hash, forming the links in the chain. 
+
+![](images/block_structure.png)
+
+### Summary
+
+* To summarize, transaction bring about transfer of value in the Bitcoin Blockchain. 
+
+* The concept of UTXO defines the inputs and outputs of such a transaction. 
+
+* Once a block is verified an algorithmic-ally agreed upon by the miners, it is added to the chain of blocks, namely the Blockchain.
+
 REF: https://www.adityathebe.com/what-does-it-mean-to-own-bitcoins
 
 REF: https://mlsdev.com/blog/156-how-to-build-your-own-blockchain-architecture
+
+REF: https://smithandcrown.com/glossary/unspent-transaction-outputs-utxo/
