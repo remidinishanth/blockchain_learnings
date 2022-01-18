@@ -1,6 +1,3 @@
-TODO: https://mlsdev.com/blog/156-how-to-build-your-own-blockchain-architecture and 
-https://www.coursera.org/learn/blockchain-basics/lecture/5rj9Z/blockchain-structure
-
 Here is the basic structure of a blockchain. 
 * **Transaction** is the basic element of the Bitcoin Blockchain. Transactions are validated and broadcast. 
 * Many transactions form a **block**. Many box form a chain through a digital data link. 
@@ -88,3 +85,5 @@ Participants can validate the transaction contents.
 Does the UTXO's reference input exist in the network state? This is the only one of the many validation criteria. Recall our demonstrated scenario. This is similar to Amy asking Kevin to verify the money in the envelope to be $10,000.
 
 REF: https://www.adityathebe.com/what-does-it-mean-to-own-bitcoins
+
+REF: https://mlsdev.com/blog/156-how-to-build-your-own-blockchain-architecture
