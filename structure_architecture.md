@@ -80,6 +80,57 @@ A transaction comprises of a bunch of metadata which are shown below.
 ![](images/structure-of-a-transaction.png)
 Structure of a bitcoin transaction. Source: Mastering Bitcoin by Andreas Antonopolous
 
+#### Bitcoin transaction
+
+```json
+  "txid" : "id",        (string) The transaction id (same as provided)
+  "hash" : "id",        (string) The transaction hash (differs from txid 
+                                 for witness transactions)
+  "size" : n,           (numeric) The serialized transaction size
+  "vsize" : n,          (numeric) The virtual transaction size (differs 
+                                  from size for witness transactions)
+  "version" : n,        (numeric) The version
+  "locktime" : ttt,     (numeric) The lock time
+  "vin" : [             (array of json objects)
+     {
+       "txid": "id",    (string) The transaction id
+       "vout": n,       (numeric)
+       "scriptSig": {   (json object) The script
+         "asm": "asm",  (string) asm
+         "hex": "hex"   (string) hex
+       },
+       "sequence": n    (numeric) The script sequence number
+       "txinwitness": ["hex", ...] (array of string) hex-encoded witness 
+                                  data (if any)
+     }
+     ,...
+  ],
+  "vout" : [            (array of json objects)
+     {
+       "value" : x.xxx,     (numeric) The value in BTC
+       "n" : n,             (numeric) index
+       "scriptPubKey" : {   (json object)
+         "asm" : "asm",     (string) the asm
+         "hex" : "hex",     (string) the hex
+         "reqSigs" : n,     (numeric) The required sigs
+         "type" : "pubkeyhash",  (string) The type, eg 'pubkeyhash'
+         "addresses" : [    (json array of string)
+           "address"        (string) bitcoin address
+           ,...
+         ]
+       }
+     }
+     ,...
+  ],
+  "blockhash" : "hash",   (string) the block hash
+  "confirmations" : n,    (numeric) The confirmations
+  "time" : ttt,           (numeric) The transaction time in seconds since 
+                                    (Jan 1 1970 GMT)
+  "blocktime" : ttt       (numeric) The block time in seconds since (Jan 1 
+                                    1970 GMT)
+}
+```
+
 Participants can validate the transaction contents.
 
 Does the UTXO's reference input exist in the network state? This is the only one of the many validation criteria. Say Alice gives Bob $10,000 in an envelope. This is similar to Alice asking Bob to verify the money in the envelope to be $10,000.
