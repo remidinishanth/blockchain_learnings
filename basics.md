@@ -40,6 +40,10 @@ These innovations are significantly shaping the direction of Web 3.0
 * Establishing trust among unknown peers. Recording the transaction in an immutable distributed ledger.
 
 
+#### Overview
+
+![](images/blockchain_overview.png.png)
+
 ### Centralised vs Decentralized
 
 Let's understand centralized versus decentralized network using a common scenario. 
