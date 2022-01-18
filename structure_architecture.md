@@ -241,6 +241,16 @@ Block 488869 has the hash of 488868 as its previous hash, forming the links in t
 
 ![](images/block_structure.png)
 
+![](images/block_structure_merkle_tree.png)
+
+This chain of transaction cannot be tampered with, which makes the ledger so secure. Lets see why this blockchain cannot be tampered with. 
+* Suppose an adversary wants to modify a transaction which is present in a block in the blockchain. 
+* If he/she does so, then it will change the hash which is maintained by the next block (prev pointer), so that the new data matches with its hash which is present in the next block. 
+* If the adversary somehow changes the hash in the next block to match the modified data in the current block, then it will change the hash of the next block which is present as the previous point in the block next to the next block. 
+* So we can see that if someone tries to change even a single bit of data in the blockchain, he/she will have to modify the entire block starting from the genesis block (the first block in the blockchain) to the current head pointer of the blockchain. 
+
+This is virtually impossible in a distributed network which uses distributed consensus to verify any transaction added to the blockchain.
+
 ### Summary
 
 * To summarize, transaction bring about transfer of value in the Bitcoin Blockchain. 
