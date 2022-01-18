@@ -8,6 +8,10 @@ Bitcoin was designed to solve this problem by using a specific type of database 
 
 REF: https://www.euromoney.com/learning/blockchain-explained/what-is-blockchain
 
+## High Level Overview
+
+![](images/blockchain_overview.png)
+
 ## Blockchain basics
 
 * Unlike traditional methods, blockchain enables peer to peer transfer of digital assets without any intermediaries.
@@ -39,10 +43,6 @@ These innovations are significantly shaping the direction of Web 3.0
 
 * Establishing trust among unknown peers. Recording the transaction in an immutable distributed ledger.
 
-
-#### Overview
-
-![](images/blockchain_overview.png.png)
 
 ### Centralised vs Decentralized
 
