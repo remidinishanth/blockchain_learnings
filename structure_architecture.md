@@ -15,3 +15,14 @@ Let's now discuss the details of a single transaction in bitcoin.
 * All of that UTXO's is in a system, are stored by the participant nodes in a database.
 
 ![](images/utxo_reference.png)
+
+
+Now let's review the role of the UTXO's in a Bitcoin Blockchain.
+* The transaction uses the amount specified by one or more UTXOs and transmits it to one or more newly created output UTXOs, according to the request initiated by the sender. 
+
+
+Structure of UTXO:
+*  It includes a unique identifier of the transaction that created this UTXO.
+*  an index or the position of the UTXO in the transaction output list
+*  a value or the amount it is good for
+*  And an optional script, the condition under which the output can be spent. 
