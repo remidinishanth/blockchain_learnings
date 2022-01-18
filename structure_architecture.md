@@ -7,6 +7,10 @@ Here is the basic structure of a blockchain.
 * Blocks go through a consensus process, to select the next block that will be added to the **chain**. Chosen block is verified, and added to the current chain.
 * Validation and consensus process are carried out by special peer nodes called **miners**. These are powerful computers executing software defined by the blockchain protocol. 
 
+```
+There are no accounts or balances in bitcoin; 
+there are only unspent transaction outputs (UTXO) scattered in the blockchain.
+```
 
 Let's now discuss the details of a single transaction in bitcoin. 
 * A fundamental concept of a bitcoin network is an **Unspent Transaction Output**, also known as **UTXO**. 
