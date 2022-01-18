@@ -38,3 +38,5 @@ Transaction:
 *  and the total input amount and output amount
 
 Participants can validate the transaction contents.
+
+Does the UTXO's reference input exist in the network state? This is the only one of the many validation criteria. Recall our demonstrated scenario. This is similar to Amy asking Kevin to verify the money in the envelope to be $10,000.
