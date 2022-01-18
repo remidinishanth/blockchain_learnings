@@ -236,6 +236,14 @@ Block 488869 has the hash of 488868 as its previous hash, forming the links in t
 
 * Once a block is verified an algorithmic-ally agreed upon by the miners, it is added to the chain of blocks, namely the Blockchain.
 
+
+### Bitcoin and Ethereum's account model
+
+The UTXO system is like a digital recreation of a cash economy. For example, Alice gives Bob 1 BTC , and the system now recognizes that there is 1 BTC signed to Bob that he has not yet given to anyone else. If Bob already had 1 BTC, then his balance on the blockchain would be 1 BTC + 1 BTC. Bob’s Bitcoin balance is the sum of all Bitcoin signed to him, similar to how all the fiat cash in Bob’s leather wallet is the sum of all fiat cash given to him. If he wants to combine his two separate BTC, he must do so in another transaction, much like he needs to do if combining two $5 bills into a $10 bill.
+
+In contrast, the Ethereum’s account model is like a bank account that automatically maintains user balances, similar to how a bank maintains a single balance amidst spending and receiving funds. When Alice gives Bob 1 ETH, the system now recognizes that Bob’s balance has gone up by 1 ETH and Alice’s has gone down. If Bob already had 1 ETH, then his balance on the blockchain would be 2 ETH. He does not need another exchange to combine them in his account.
+
+
 REF: https://www.adityathebe.com/what-does-it-mean-to-own-bitcoins
 
 REF: https://mlsdev.com/blog/156-how-to-build-your-own-blockchain-architecture
