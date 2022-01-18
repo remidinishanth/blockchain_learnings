@@ -31,6 +31,8 @@ Structure of UTXO:
 *  a value or the amount it is good for
 *  And an optional script, the condition under which the output can be spent
 
+![](images/utxo-structure.png)
+
 Transaction:
 * The transaction itself includes a reference number of the current transaction
 *  references to one no more input UTXOs
