@@ -82,7 +82,7 @@ Structure of a bitcoin transaction. Source: Mastering Bitcoin by Andreas Antonop
 
 Participants can validate the transaction contents.
 
-Does the UTXO's reference input exist in the network state? This is the only one of the many validation criteria. Recall our demonstrated scenario. This is similar to Amy asking Kevin to verify the money in the envelope to be $10,000.
+Does the UTXO's reference input exist in the network state? This is the only one of the many validation criteria. Say Alice gives Bob $10,000 in an envelope. This is similar to Alice asking Bob to verify the money in the envelope to be $10,000.
 
 REF: https://www.adityathebe.com/what-does-it-mean-to-own-bitcoins
 
