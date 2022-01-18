@@ -84,6 +84,9 @@ Inputs structure
 Outputs structure
 ![](images/utxo-structure.png)
 
+Transaction example
+![](images/transaction_real_example.png)
+
 #### Bitcoin transaction properties with example
 
 A Bitcoin transaction has the following data properties expressed in JSON format:
