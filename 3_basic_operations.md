@@ -47,3 +47,15 @@ To summarize, the main operations in a blockchain are **transaction validation**
 
 
 The problem with Proof-of-work is that it is resource-intensive and creates a centralizing tendency among miners based on computer resource capability.
+
+
+### Reference
+
+Must read: https://onezero.medium.com/how-does-the-blockchain-work-98c8cd01d2ae 
+
+Description: An article written by Michele D'Aliessi on Medium that explains blockchain technology in simple words.
+
+
+How Do Bitcoin Nodes Verify Transactions? https://smartereum.com/8970/how-do-bitcoin-nodes-verify-transactions/
+
+Description: An article describing some of the features that mining nodes check for transaction validation.
