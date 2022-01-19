@@ -35,10 +35,15 @@ Some of these criteria are: Referenced Input Unspent Transaction Output, UTXOs a
 reference output UTXOs are correct, reference input amount and output amount matched sufficiently, 
 invalid transactions are rejected and will not be broadcast.
 
-All the valid transactions are added to a pool of transactions. Miners select a set of transaction from this pool to create a block. This creates a challenge. If every miner adds the block to the chain, there will be many branches to the chain, resulting in inconsistent state.
+All the valid transactions are added to a pool of transactions. Miners select a set of transaction from this pool to create a block. This creates a challenge. If every miner adds the block to the chain, there will be many branches to the chain, resulting in inconsistent state. Recall, the blockchain is a single consistent linked chain of flux. 
 
-We need a system to overcome this challenge, the solution. Miners compete to solving a puzzle to determine who earn the right to create the next block. In the case of bitcoin blockchain, this parcel is a computation of parcel and the central processing unit or CPU intensive. Once a miner solves the puzzle, the announcement is broadcast to the network and the block is also broadcast to the network. Then, other participant verify the new block. Participants reach a consensus to add a new block to the chain. This new block is added to their local copy of the blockchain. Thus, a new set of transactions are recorded and confirmed. The algorithm for consensus is called proof-of -work protocol, since it involves work a computational power to solve the puzzle and to claim the right to form the next block.
+We need a system to overcome this challenge, the solution. Miners compete to solving a puzzle to determine who earn the right to create the next block. In the case of bitcoin blockchain, this puzzle is a computational puzzle which is CPU intensive. 
+
+Once a miner solves the puzzle, the announcement is broadcast to the network and the block is also broadcast to the network. Then, other participant verify the new block. Participants reach a consensus to add a new block to the chain. This new block is added to their local copy of the blockchain. Thus, a new set of transactions are recorded and confirmed. The algorithm for consensus is called **proof-of-work protocol**, since it involves work a computational power to solve the puzzle and to claim the right to form the next block.
 
 Transaction zero, index zero of the confirmed block is created by the miner of the block. It has a special UTXO and does not have any input UTXO. It is called the coinbase transaction that generates a minor's fees for the block creation. This is how new coin is minted in bitcoin. 
 
 To summarize, the main operations in a blockchain are **transaction validation** and **block creation with the consensus of the participants**. There are many underlying implicit operations as well in the bitcoin blockchain.
+
+
+The problem with Proof-of-work is that it is resource-intensive and creates a centralizing tendency among miners based on computer resource capability.
