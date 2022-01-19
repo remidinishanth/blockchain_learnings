@@ -27,6 +27,8 @@ broadcasting the newly created block, and confirming transactions.
 You might wonder why participant would take on additional work. 
 Well, the miners are incentivised with bitcoins for the efforts in managing the blockchain.
 
+![](images/basic_operations.png)
+
 Transaction validation is carried out independently by all miners. 
 The process involves validation of more than 20 criteria, including size, syntax, et cetera. 
 Some of these criteria are: Referenced Input Unspent Transaction Output, UTXOs are valid, 
