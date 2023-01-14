@@ -91,7 +91,8 @@ The transaction uses the amount specified by one or more input UTXOs and transfe
 
 The UTXO is a discrete and indivisible unit of value denominated in satoshis. The first question that comes to mind when we say that UTXO’s are indivisible: what happens when we try to spend less than the UTXO’s that we own? Let’s see an example:
 
-I want to send Sarah, 0.5 Bitcoins, and in my Balance I have 1 bitcoin that came from only one UTXO, so I can’t divide the UTXO of one bitcoin, I must send the entire bitcoin in the transaction, and create another output as my change. Similar as when we pay with a five dollar bill something that is only two dollars, we can’t divide the five dollar bill, so we pay with the entire five dollar bill and receive three dollars as change. This is an important aspect about bitcoin transactions.
+* I want to send Sarah, 0.5 Bitcoins, and in my Balance I have 1 bitcoin that came from only one UTXO, so I can’t divide the UTXO of one bitcoin, I must send the entire bitcoin in the transaction, and create another output as my change. 
+* Similar as when we pay with a five dollar bill something that is only two dollars, we can’t divide the five dollar bill, so we pay with the entire five dollar bill and receive three dollars as change. This is an important aspect about bitcoin transactions.
 
 ![](images/utxo_transaction.png)
 
