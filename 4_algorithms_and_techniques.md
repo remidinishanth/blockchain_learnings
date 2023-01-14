@@ -2,6 +2,8 @@ Two key cryptographic concepts are
 1. Public-key cryptography, or asymmetric cryptography
 2. Hashing
 
+A combination of hashing and encryption are used for securing the various elements of the block chain. Private public key pair and hashing are important foundational concepts in decentralized networks that operate beyond trust boundaries.
+
 
 ### Transaction Integrity
 
